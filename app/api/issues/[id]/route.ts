@@ -39,6 +39,7 @@ export async function PATCH(
     data: {
       title,
       description,
+      assignedToUserId,
     },
   });
 
